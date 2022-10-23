@@ -6,7 +6,6 @@ import java.awt.event.MouseListener;
 
 public class GameButton extends JButton {
     public void setProperties(int i, int j, int unit, MouseListener mouseListener) {
-
         this.setName(i + " " + j);
         this.setText(null);
         this.setBackground(Color.GRAY);

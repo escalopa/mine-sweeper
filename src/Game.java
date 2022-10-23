@@ -1,4 +1,4 @@
-import components.WindowFrame;
+import components.Frame;
 
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.UnsupportedAudioFileException;
@@ -9,6 +9,6 @@ public class Game {
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         final int dimension = 15;
         final int unit = 50;
-        new WindowFrame().run(dimension, unit);
+        new Frame().run(dimension, unit);
     }
 }
